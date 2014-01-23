@@ -1,3 +1,9 @@
+Status: UNFINISHED
+==================
+
+Please check this repository in a few hours, or maybe tomorrow. There will be more stuff.
+
+
 Django Ergonomics Talk
 ======================
 
