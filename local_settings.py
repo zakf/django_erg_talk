@@ -16,13 +16,13 @@
 # everywhere that I mean \.
 # 
 # To recap, if I want to say this:
-#	\Users\zakf\medica_latest\
+#   C:\Users\zakf\medica_latest\
 # These are my options:
-#	r'\Users\zakf\medica_latest\\'		# Correct, oddly
-#	r'\Users\zakf\medica_latest\'		# Incorrect, syntax error
-#	r'\\Users\\zakf\\medica_latest\\'	# Incorrect, extra \'s
-#	'\Users\zakf\medica_latest\'		# Incorrect, syntax error
-#	'\\Users\\zakf\\medica_latest\\'	# Correct, USE THIS STYLE
+#   r'C:\Users\zakf\medica_latest\\'    # Correct, oddly
+#   r'C:\Users\zakf\medica_latest\'     # Incorrect, syntax error
+#   r'C:\\Users\\zakf\\medica_latest\\' # Incorrect, extra \'s
+#   'C:\Users\zakf\medica_latest\'      # Incorrect, syntax error
+#   'C:\\Users\\zakf\\medica_latest\\'  # Correct, USE THIS STYLE
 
 from uuid import getnode
 
@@ -59,10 +59,6 @@ if gotnode == 207508019175032:
     template_dirs_templates = root_dir + 'templates/'
     
     staticfiles_dir = root_dir + 'static/'
-    
-    printer_installed = False
-    
-    ibutton_installed = False
     
     login_required = False
     
@@ -102,10 +98,6 @@ if gotnode == 26439108562915:
     template_dirs_templates = root_dj_dir + 'templates/'
     
     staticfiles_dir = root_dj_dir + 'static/'
-    
-    printer_installed = True
-    
-    ibutton_installed = True
     
     login_required = False
     
