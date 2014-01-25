@@ -1,13 +1,10 @@
-zakf@mit.edu
-============
-
 github.com/zakf
 ===============
 
 Status: UNFINISHED
 ==================
 
-Please check this repository tomorrow (January 24th). There will be more stuff.
+Please check this repository tomorrow (January 25th). There will be more stuff.
 
 
 Django Ergonomics Talk
